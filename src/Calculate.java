@@ -29,10 +29,15 @@ public class Calculate {
 		
 		}while(answer.equalsIgnoreCase("Y"));
 		
+		if (answer.equalsIgnoreCase("N")) {
+			System.out.println("goodbye");
+		} else if (answer.equalsIgnoreCase("Y")) {
+			System.out.println("Glad you're back!");
+		}
 	}
 	
 //	public double perimeter (double length, double width) {
-//
+//new version - possibly 
 //		double perimeter;
 //		Scanner scnr = new Scanner (System.in);
 //		System.out.println("Enter length:");
