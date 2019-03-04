@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Calculate {
 
@@ -9,7 +10,14 @@ public class Calculate {
 		double length;
 		double width; 
 		double perimeter;
-
+		
+		Scanner scnr = new Scanner (System.in);
+		
+		System.out.println("Enter Length:");
+		length = scnr.nextDouble();
+		System.out.println("Enter Width:");
+		width = scnr.nextDouble();
+		
 	}
 
 }
