@@ -18,6 +18,9 @@ public class Calculate {
 		System.out.println("Enter Width:");
 		width = scnr.nextDouble();
 		
+		perimeter = length * width;
+		System.out.println(perimeter);
+		
 	}
 
 }
